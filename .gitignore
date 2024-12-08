@@ -1,0 +1,7 @@
+# Initialize Git
+git init
+
+# Create a .gitignore file
+echo "venv/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "__pycache__/" >> .gitignore
